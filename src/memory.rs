@@ -1,6 +1,6 @@
 use core::fmt;
 use rand::distributions::uniform::SampleUniform;
-use std::simd::num::SimdFloat;
+use std::simd::SimdFloat;
 use std::simd::{LaneCount, Simd, SimdElement, SupportedLaneCount};
 use std::{iter, ops};
 

@@ -1,6 +1,6 @@
 use crate::memory::*;
 use crate::{helpers, AbortStrategy};
-use core::simd::num::SimdFloat;
+use core::simd::SimdFloat;
 use core::simd::{LaneCount, Simd, SupportedLaneCount};
 use rand::prelude::*;
 use rayon::prelude::*;
